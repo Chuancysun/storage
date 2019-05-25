@@ -1,0 +1,148 @@
+
+    .contentImg{
+        
+        background-image: url("images/前端第二次作业-切图001_03.png");
+        
+
+    }
+.dot{
+    font-size: 12px;
+    margin: 5px;
+    border: none;
+    color: brown;
+}
+.page a,.next,.last{
+        
+		padding: 4px 6px;				
+		margin: 5px;
+        font-size: 12px;
+        color: brown;
+        cursor: pointer;
+       ;
+	}
+.page a:hover{
+           color:white;
+            background-color:brown ;
+        }
+        .next:hover{
+            color:white;
+            background-color:brown ;
+        }
+        .last:hover{
+            color:white;
+            background-color:brown ;
+        }
+.header>img{
+    width: 100%;
+}
+.contentImg>img{
+    width: 980px;
+}
+.imgBot{
+    clear:both;
+}
+.bala{
+    margin:0;
+    padding:0;
+}
+.bala>li{
+    float: left;
+    text-decoration: none;
+    margin-right:20px;
+    list-style: none;
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.imgList{
+    width: 100%;
+    height: 100%;
+
+}
+.categories{
+    width: 980px;
+    margin: 0 auto;
+    height:100%; 
+
+}
+.content-left{
+    float: left;
+    height: 100%;
+}
+.topRight{
+    margin-left:10px;
+    width: 760px;
+    height: 100%;
+    border:1px solid black;
+    float: right;
+}
+
+.Lala{
+    width: 200px;   
+  
+    display: block;
+}
+.bala>li>img{
+    width: 170px;
+    height: 130px;;
+}
+.row{
+    width: 100%;
+    height: 180px;
+    
+}
+.pageBtn{
+    text-align: center;
+    margin-top: 20px;
+     line-height: 20px; 
+}
+.tails>img{
+    
+    margin-top: 300px;
+    width:100%;
+    float: left;
+}
+.description{
+float:right;
+margin-right: 30px;
+}
+
+
+/* 轮播效果 */
+
+#container {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+}
+ 
+#photo {
+	width: 1500px;
+	animation: switch 5s ease-out infinite;
+}
+ 
+#photo > img {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+ 
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -400px;
+	}
+	70%, 100% {
+		margin-left: -800px;
+	}
+
+}
+
